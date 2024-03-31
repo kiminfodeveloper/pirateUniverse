@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+html,
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.card-container {
+    margin-top: 3rem;
+    gap: 3rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+}
+
+.icons {
+    width: 175px;
+    height: 200px;
+}
+
+.btn-download {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    border-radius: 2rem;
+    border: 1px solid #fff;
+    background-color: #2d2d2d;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn-download:hover {
+    background-color: #000;
+}
